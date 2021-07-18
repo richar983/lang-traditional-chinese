@@ -294,7 +294,7 @@ core:
             replied_text: '{username} 回覆於 {ago}'
             started_text: '{username} 發佈於 {ago}'
         edit_user:
-            activate_button: 繳活會員
+            activate_button: 啟用會員
             email_heading: 電子郵件
             email_label: 電子郵件
             groups_heading: 群組
@@ -457,7 +457,7 @@ core:
         dropdown:
             toggle_dropdown_accessible_label: 下拉選單開關
         edit_user:
-            activate_button: 繳活用戶
+            activate_button: 啟用用戶
             email_heading: 電子郵件
             email_label: 電子郵件
             groups_heading: 用戶組
@@ -504,8 +504,8 @@ core:
         invalid_username_message: 使用者名稱僅能包含字母、數字及橫線
     email:
         activate_account:
-            subject: 繳活帳戶
-            body: "你好，{username}！\n\n此電子郵件位址被用於註冊 {forum}，若確定是你本人註冊的，請點擊下面的連結即可繳活你的帳戶：\n\n{url}\n\n若非你本人註冊，請忽略此郵件。\n"
+            subject: 啟用帳戶
+            body: "你好，{username}！\n\n此電子郵件位址被用於註冊 {forum}，若確定是你本人註冊的，請點擊下面的連結即可啟用你的帳戶：\n\n{url}\n\n若非你本人註冊，請忽略此郵件。\n"
         confirm_email:
             subject: 電子郵件位址驗證
             body: "你好，{username}!\n\n你在 {forum} 的電子郵件位址被更改為此電子郵件，若確定是你本人進行的更改，請點擊下面的連結即可完成電子郵件驗證：\n\n{url}\n\n若非你本人行為，請忽略此郵件。\n"

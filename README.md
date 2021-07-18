@@ -19,4 +19,4 @@ composer remove richar983/lang-traditional-chinese
 ### 示例 / Demo
 
 ### 回報問題 / Report Issue
-  - 正體中文 / Traditional Chinese: [Github](https://github.com/richar983/lang-traditional-chinese/issues)
+  - 繁體中文 / Traditional Chinese: [Github](https://github.com/richar983/lang-traditional-chinese/issues)
