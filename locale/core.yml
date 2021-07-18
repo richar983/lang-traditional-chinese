@@ -81,7 +81,7 @@ core:
             driver_label: 驅動
             encryption_label: 加密
             from_label: 發信人
-            heading: 郵箱
+            heading: 電子郵件
             mail_encryption_label: 加密
             mail_host_label: 主機
             mail_mailgun_domain_label: 域名
@@ -105,7 +105,7 @@ core:
             send_test_mail_button: 發送
             send_test_mail_heading: 發送測試郵件
             send_test_mail_success: 測試郵件發送成功！
-            send_test_mail_text: '使用上述設置發送測試郵件到您的郵箱：{email}'
+            send_test_mail_text: '使用上述設置發送測試郵件到您的電子郵件：{email}'
             title: 信箱
         extensions:
             add_button: 新增延伸套件
@@ -123,8 +123,8 @@ core:
             basics_text: 設定論壇名稱、語言以及其他基本設定
             dashboard_button: 論壇概覽
             dashboard_text: 論壇資料綜覽
-            email_button: 郵箱
-            email_text: 配置論壇郵箱設定。
+            email_button: 電子郵件
+            email_text: 配置論壇電子郵件設定。
             extensions_button: 延伸套件
             extensions_text: 為你的論壇新增額外功能
             permissions_button: 權限設定
@@ -220,9 +220,9 @@ core:
                         title: 編輯用戶
                         tooltip: '編輯 {username}'
                     email:
-                        title: 郵箱
-                        visibility_hide: 隱藏郵箱地址
-                        visibility_show: 顯示郵箱地址
+                        title: 電子郵件
+                        visibility_hide: 隱藏電子郵件地址
+                        visibility_show: 顯示電子郵件地址
                     group_badges:
                         no_badges: 無
                         title: 用戶組
@@ -247,7 +247,7 @@ core:
             dismiss_button: 好
             incorrect_password_message: 鍵入的密碼不正確。
             submit_button: 儲存更改
-            title: 更改郵箱
+            title: 更改電子郵件
         change_password:
             send_button: 發送密碼重設郵件
             text: 點擊下面的按鈕並檢查郵件中的連結以重設密碼。
@@ -294,9 +294,9 @@ core:
             replied_text: '{username} 回覆於 {ago}'
             started_text: '{username} 發佈於 {ago}'
         edit_user:
-            activate_button: 激活會員
-            email_heading: 郵箱
-            email_label: 郵箱
+            activate_button: 繳活會員
+            email_heading: 電子郵件
+            email_label: 電子郵件
             groups_heading: 群組
             password_heading: 密碼
             password_label: 密碼
@@ -307,11 +307,11 @@ core:
             username_label: 會員
         forgot_password:
             dismiss_button: 好
-            email_placeholder: 郵箱
-            email_sent_message: 已將包含密碼重設連結的郵件發送至該郵箱，若未收到請檢查垃圾箱。
-            not_found_message: 沒有使用此郵箱位址註冊的會員。
+            email_placeholder: 電子郵件
+            email_sent_message: 已將包含密碼重設連結的郵件發送至該電子郵件，若未收到請檢查垃圾箱。
+            not_found_message: 沒有使用此電子郵件位址註冊的會員。
             submit_button: 重設密碼
-            text: 請鍵入郵箱位址，我們將發送密碼重設連結至該郵箱。
+            text: 請鍵入電子郵件位址，我們將發送密碼重設連結至該電子郵件。
             title: 忘記密碼
         header:
             admin_button: 管理後台
@@ -351,7 +351,7 @@ core:
             sign_up_text: '還沒有帳戶？ <a>立即註冊</a>'
             submit_button: 登入
             title: 登入
-            username_or_email_placeholder: 會員名稱或郵箱
+            username_or_email_placeholder: 使用者名稱或電子郵件
         notifications:
             discussion_renamed_text: '{username} 更改了標題'
             empty_text: 暫無通知
@@ -392,23 +392,23 @@ core:
             users_heading: 會員
         settings:
             account_heading: 帳戶
-            change_email_button: 更改郵箱
+            change_email_button: 更改電子郵件
             change_password_button: 更改密碼
             notifications_heading: 通知
-            notify_by_email_heading: 郵箱
+            notify_by_email_heading: 電子郵件
             notify_by_web_heading: 網頁
             notify_discussion_renamed_label: 你的貼文標題被更改
             privacy_disclose_online_label: 公開展示我的線上狀態
             privacy_heading: 隱私
             title: 設定
         sign_up:
-            email_placeholder: 郵箱
+            email_placeholder: 電子郵件
             dismiss_button: 好
             log_in_text: '已有帳戶？ <a>登入</a>'
             password_placeholder: 密碼
             submit_button: 註冊
             title: 註冊
-            username_placeholder: 會員
+            username_placeholder: 使用者名稱
             welcome_text: '歡迎造訪，{username}！'
         user:
             avatar_remove_button: 移除
@@ -457,17 +457,17 @@ core:
         dropdown:
             toggle_dropdown_accessible_label: 下拉選單開關
         edit_user:
-            activate_button: 激活用戶
-            email_heading: 郵箱
-            email_label: 郵箱
+            activate_button: 繳活用戶
+            email_heading: 電子郵件
+            email_label: 電子郵件
             groups_heading: 用戶組
             password_heading: 密碼
             password_label: 密碼
             set_password_label: 修改密碼
             submit_button: 保存
             title: 編輯用戶
-            username_heading: 用戶名
-            username_label: 用戶名
+            username_heading: 使用者名稱
+            username_label: 使用者名稱
         loading_indicator:
             accessible_label: '=> core.ref.loading'
     views:
@@ -501,23 +501,23 @@ core:
             submit_button: 儲存更改
             title: 重設密碼
     api:
-        invalid_username_message: 會員名稱僅能包含字母、數字及橫線
+        invalid_username_message: 使用者名稱僅能包含字母、數字及橫線
     email:
         activate_account:
-            subject: 激活帳戶
-            body: "你好，{username}！\n\n此郵箱位址被用於註冊 {forum}，若確定是你本人註冊的，請點擊下面的連結即可激活你的帳戶：\n\n{url}\n\n若非你本人註冊，請忽略此郵件。\n"
+            subject: 繳活帳戶
+            body: "你好，{username}！\n\n此電子郵件位址被用於註冊 {forum}，若確定是你本人註冊的，請點擊下面的連結即可繳活你的帳戶：\n\n{url}\n\n若非你本人註冊，請忽略此郵件。\n"
         confirm_email:
-            subject: 郵箱位址驗證
-            body: "你好，{username}!\n\n你在 {forum} 的郵箱位址被更改為此郵箱，若確定是你本人進行的更改，請點擊下面的連結即可完成郵箱驗證：\n\n{url}\n\n若非你本人行為，請忽略此郵件。\n"
+            subject: 電子郵件位址驗證
+            body: "你好，{username}!\n\n你在 {forum} 的電子郵件位址被更改為此電子郵件，若確定是你本人進行的更改，請點擊下面的連結即可完成電子郵件驗證：\n\n{url}\n\n若非你本人行為，請忽略此郵件。\n"
         reset_password:
             subject: 重設密碼
             body: "你好，{username}！\n\n收到來自 {forum} 的密碼重設請求，若確定是你本人進行才操作，請點擊下面的連結重設密碼：\n\n{url}\n\n若非你本人行為或不想重設密碼，請忽略此郵件。\n"
         send_test:
-            body: "{username}，您好！\n\n這是一個測試郵件，用於測試您的郵箱設置是否正確。\n\n若是您本人發送了測試郵件，那麼恭喜，這意味著您的設置有效！\n\n若非您本人發送測試郵件，請忽略此內容。"
+            body: "{username}，您好！\n\n這是一個測試郵件，用於測試您的電子郵件設置是否正確。\n\n若是您本人發送了測試郵件，那麼恭喜，這意味著您的設置有效！\n\n若非您本人發送測試郵件，請忽略此內容。"
             subject: 'Flarum 郵件測試'
     ref:
         all_discussions: 全部貼文
-        change_email: 更改郵箱
+        change_email: 更改電子郵件
         change_password: 更改密碼
         color: 顏色
         confirm_password: 確認密碼
@@ -530,7 +530,7 @@ core:
         delete_forever: 永久刪除
         discussions: 貼文
         edit: 編輯
-        email: 郵箱
+        email: 電子郵件
         icon_label: 圖示
         icon_text: '鍵入任意 <a>FontAwesome</a> 圖示類名，<em>需要包含</em>前綴 <code>fas fa-</code>'
         load_more: 載入更多

@@ -1,6 +1,6 @@
 {
-  "name": "pattinsonfuture/lang-traditional-chinese",
-  "description": "Flarum 正體中文語言包",
+  "name": "richar983/lang-traditional-chinese",
+  "description": "Flarum 繁體中文語言包",
   "keywords": [
     "flarum",
     "locale",
@@ -11,21 +11,21 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "pattinsonfuture",
-      "email": "pattinsonfuture@gmail.com",
-      "homepage": "https://game.yolk.club/"
+      "name": "RicharLin",
+      "email": "me@richarlin.tw",
+      "homepage": "https://richarlin.tw/"
     }
   ],
   "support": {
-    "source": "https://github.com/pattinsonfuture/lang-traditional-chinese",
-    "issues": "https://github.com/pattinsonfuture/lang-traditional-chinese"
+    "source": "https://github.com/richar983/lang-traditional-chinese",
+    "issues": "https://github.com/richar983/lang-traditional-chinese"
   },
   "require": {
     "flarum/core": "^1.0"
   },
   "extra": {
     "flarum-extension": {
-      "title": "正體中文語言包",
+      "title": "繁體中文語言包",
         "icon": {
           "image": "icon.svg",
           "backgroundColor": "#fff",
